@@ -1,12 +1,8 @@
-----------------------------------------------------------------------------
-Este é o arquivo README do projeto. Você deve descrever aqui o seu projeto.
-Informe ao usuário (alguém que não sabe nada sobre este projeto!) tudo que
-ele/ela precisa saber. Os comentários devem incluir, pelo menos:
-------------------------------------------------------------------------
+Centro Universitario Filadelfia
+Londrina, Paraná
+Linguagem de Programação I
 
-TITULO DO PROJETO:
-OBJETIVO DO PROJETO:
-VERSÃO ou DATA:
-COMO INICIAR O PROJETO:
-AUTORES:
-INSTRUÇÕES PARA O USUÁRIO:
+TITULO DO PROJETO: Funcionario
+OBJETIVO DO PROJETO: Implementar os conceitos de classe abstrata
+VERSÃO ou DATA: 05/10/2017
+AUTORES: Matheus Muriel
