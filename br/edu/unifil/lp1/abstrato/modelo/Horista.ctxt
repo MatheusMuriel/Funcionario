@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Horista
+comment1.params=n\ salario\ tipo
+comment1.target=Horista(java.lang.String,\ float,\ int)
+comment2.params=
+comment2.target=float\ getHorasTrab()
+comment3.params=horasTrab
+comment3.target=void\ setHorasTrab(float)
+comment4.params=
+comment4.target=float\ getGanhoMensal()
+numComments=5

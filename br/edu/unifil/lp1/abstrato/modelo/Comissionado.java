@@ -5,6 +5,10 @@ public class Comissionado extends Funcionario
     private float comisao;
     private float quantVendas;
 
+    public Comissionado(String n, float salario, int tipo){
+        super(n, salario, tipo);
+    }
+
     public float getComisao(){
         return comisao;
     }
@@ -22,6 +26,6 @@ public class Comissionado extends Funcionario
     }
 
     public float getGanhoMensal(){
-      return super.getSalario() + comisao * quantVendas;
+        return super.getSalario() + comisao * quantVendas;
     }
 }

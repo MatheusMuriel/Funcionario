@@ -4,14 +4,19 @@ public class Producao extends Funcionario
 {
     private int quantProd;
 
-    public int getQuantProd(){
-      return quantProd;
+    public Producao(String n, float salario, int tipo){
+        super(n, salario, tipo);
     }
+
+    public int getQuantProd(){
+        return quantProd;
+    }
+
     public void setQuantProd(int quantProd){
-      this.quantProd = quantProd;
+        this.quantProd = quantProd;
     }
 
     public float getGanhoMensal(){
-      return super.getSalario() * quantProd;
+        return super.getSalario() * quantProd;
     }
 }

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Comissionado
+comment1.params=n\ salario\ tipo
+comment1.target=Comissionado(java.lang.String,\ float,\ int)
+comment2.params=
+comment2.target=float\ getComisao()
+comment3.params=comisao
+comment3.target=void\ setComisao(float)
+comment4.params=
+comment4.target=float\ getQuantVendas()
+comment5.params=quantVendas
+comment5.target=void\ setQuantVendas(float)
+comment6.params=
+comment6.target=float\ getGanhoMensal()
+numComments=7
