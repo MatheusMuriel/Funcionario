@@ -13,6 +13,7 @@ public class Sistema
         Controle ctr = new Controle();
         Scanner teclado = new Scanner(System.in);
         String  nome;
+        String  tipoEmp = (" ");
         float   salario;
         int     tipo;
         int opcao = 0;
@@ -25,8 +26,7 @@ public class Sistema
             switch(opcao){
                 case 1 :
                     System.out.print("Nome: ");
-                    teclado.nextLine(); //Para não bugar o nextLine
-                    nome = teclado.nextLine();
+                    nome = teclado.nextLine();teclado.nextLine();
                     System.out.print("Salario: ");
                     salario = teclado.nextFloat();
                     System.out.println("Tipo: ");
@@ -35,20 +35,15 @@ public class Sistema
                         System.out.println("3- Horista");
                         System.out.println("4- Produção");
                     tipo = teclado.nextInt();
-                    ctr.addEmp(nome, salario, tipo);
+                    ctr.convertTipo(tipo);
+                    ctr.addEmp(nome, salario, tipoEmp);
                     System.out.println(" \n "); //Para separar na tela;
                     break;
+
                 case 2 :
                     ctr.listarEmp();
                     System.out.print(" \n "); //Para separar na tela
                     break; //ta parando dps daq
-                case 3 :
-                    System.out.println("Funcionario: ");
-                    teclado.nextLine();
-                    nome = teclado.nextLine();
-                    //tem que pegar o funcionario e verificar qual é o tipo
-                    ctr.tipoEmp(nome);
-                    break;
             }
         }
     }

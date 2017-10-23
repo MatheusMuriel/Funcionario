@@ -6,23 +6,14 @@ import br.edu.unifil.lp1.abstrato.modelo.*;
  */
 public class Controle
 {
-            //Atributo privado listaEMp com array estatico ou array list
+    //Atributo privado listaEMp com array estatico ou array list
     //Metodo que cadastra listaEmp todos os funcionarios....Vai ser todos juntos
     //Metodo para retornar uma String com o nome eo salario do funcionario
     private int numMatricula = 0;
     private Funcionario[] listEmp = new Funcionario[100];
 
-    public void addEmp(String nome, float salario, int tipo){
+    public void addEmp(String nome, float salario, String tipoEmp){
           Funcionario emp = null;
-          if(tipo == 1){
-            emp = new Mensalista(nome   , salario, tipo);
-          }else if(tipo == 2){
-            emp = new Comissionado(nome, salario, tipo);
-          }else if(tipo == 3) {
-            emp = new Horista(nome, salario, tipo);
-          }else if (tipo == 4) {
-            emp = new Producao(nome, salario, tipo);
-          }
           this.listEmp[ numMatricula++ ] = emp;
     }
 
@@ -33,19 +24,18 @@ public class Controle
         return null;
     }
 
-    public String tipoEmp(String nome){
-        String saida =(" ");
-        for (int i = 0; i < listEmp.length; i++) {
-            if(listEmp[i] == null){
-                //Faz nada
-            }else{
-                if(nome.equals(listEmp[i].getNome())) {
-                 System.out.println("Este funcionario e tipo " + listEmp[i].getTipo());
-                }else {
-                 System.out.println("Não existe um funcionario com este nome");
-                }
-            }
-        }
-        return saida;
+    public String convertTipo(int tipo){
+      String tipoEmp =(" ");
+      //Vai converter o numero em uma String com o tipo
+      if (tipo == 1) {
+        tipoEmp += ("Mensalista");
+      }else if (tipo == 2) {
+        tipoEmp += ("Comissionado");
+      }else if (tipo == 3) {
+        tipoEmp += ("Horista");
+      }else if (tipo == 4) {
+        tipoEmp += ("Producao");
+      }
+      return tipoEmp;
     }
 }
