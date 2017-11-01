@@ -2,7 +2,7 @@ package br.edu.unifil.lp1.abstrato.modelo;
 
 public abstract class Pessoa
 {
-    private String nome;
+    protected String nome;
     
     public Pessoa(String n){
         nome = n;

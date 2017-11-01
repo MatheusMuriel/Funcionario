@@ -12,30 +12,32 @@ public class Controle
     private int numMatricula = 0;
     private Funcionario[] listEmp = new Funcionario[100];
 
-    public void addEmp(String nome, float salario, String tipoEmp){
+    public void addEmp(String nome, float salario, int tipo){
           Funcionario emp = null;
+            if(tipo == 1{
+                    emp = new Mensalista(nome, salario, tipo);
+            }else if(tipo == 2){
+                    emp = new Comissionado(nome, salario, tipo);
+            }else if(tipo == 3){
+                    emp = new Horista(nome, salario, tipo);
+            }else if(tipo == 4){
+                    emp = new Producao(nome, salario, tipo);
+        }
+          emp.setNome(nome);
+          emp.setSalario(salario);
+          emp.setTipo(tipo);
           this.listEmp[ numMatricula++ ] = emp;
     }
 
     public String listarEmp(){
-        for(int i = 0; i < listEmp.length; i++) {
+      for(int i = 0; i < listEmp.length; i++) {
+        if (listEmp[i] == null);
+        else{
           System.out.print("Funcionario: " + listEmp[i].getNome());
         }
-        return null;
+      }
+      return null;
     }
 
-    public String convertTipo(int tipo){
-      String tipoEmp =(" ");
-      //Vai converter o numero em uma String com o tipo
-      if (tipo == 1) {
-        tipoEmp += ("Mensalista");
-      }else if (tipo == 2) {
-        tipoEmp += ("Comissionado");
-      }else if (tipo == 3) {
-        tipoEmp += ("Horista");
-      }else if (tipo == 4) {
-        tipoEmp += ("Producao");
-      }
-      return tipoEmp;
-    }
+
 }

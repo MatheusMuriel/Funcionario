@@ -35,8 +35,8 @@ public class Sistema
                         System.out.println("3- Horista");
                         System.out.println("4- Produção");
                     tipo = teclado.nextInt();
-                    ctr.convertTipo(tipo);
-                    ctr.addEmp(nome, salario, tipoEmp);
+                    //ctr.convertTipo(tipo);
+                    ctr.addEmp(nome, salario, tipo);
                     System.out.println(" \n "); //Para separar na tela;
                     break;
 

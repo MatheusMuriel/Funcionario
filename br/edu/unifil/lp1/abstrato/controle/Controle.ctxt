@@ -1,10 +1,8 @@
 #BlueJ class context
 comment0.target=Controle
 comment0.text=\n\ @author\ Matheus\ Muriel\n\ @version\ 18/10/2017\n
-comment1.params=nome\ salario\ tipoEmp
-comment1.target=void\ addEmp(java.lang.String,\ float,\ java.lang.String)
+comment1.params=nome\ salario\ tipo
+comment1.target=void\ addEmp(java.lang.String,\ float,\ int)
 comment2.params=
 comment2.target=java.lang.String\ listarEmp()
-comment3.params=tipo
-comment3.target=java.lang.String\ convertTipo(int)
-numComments=4
+numComments=3
