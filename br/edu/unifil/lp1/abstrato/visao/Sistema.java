@@ -22,11 +22,11 @@ public class Sistema
             System.out.println("1- Cadastrar funcionario");
             System.out.println("2- Consultar funcionario");
             System.out.println("3- Trabalho do mes");
-            opcao = teclado.nextInt();
+            opcao = teclado.nextInt();teclado.nextLine();
             switch(opcao){
                 case 1 :
                     System.out.print("Nome: ");
-                    nome = teclado.nextLine();teclado.nextLine();
+                    nome = teclado.nextLine();
                     System.out.print("Salario: ");
                     salario = teclado.nextFloat();
                     System.out.println("Tipo: ");
