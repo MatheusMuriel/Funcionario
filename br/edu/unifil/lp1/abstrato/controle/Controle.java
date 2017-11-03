@@ -14,7 +14,7 @@ public class Controle
 
     public void addEmp(String nome, float salario, int tipo){
           Funcionario emp = null;
-            if(tipo == 1{
+            if(tipo == 1){
                     emp = new Mensalista(nome, salario, tipo);
             }else if(tipo == 2){
                     emp = new Comissionado(nome, salario, tipo);

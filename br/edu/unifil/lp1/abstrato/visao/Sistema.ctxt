@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Sistema
-comment0.text=\n\ @author\ Matheus\ Muriel\n\ @version\ 18/10/2017\n
+comment0.text=\r\n\ @author\ Matheus\ Muriel\r\n\ @version\ 18/10/2017\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2
