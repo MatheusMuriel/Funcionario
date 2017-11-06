@@ -21,7 +21,6 @@ public class Sistema
             System.out.println("Escolha uma opçao: ");
             System.out.println("1- Cadastrar funcionario");
             System.out.println("2- Consultar funcionario");
-            System.out.println("3- Trabalho do mes");
             opcao = teclado.nextInt();teclado.nextLine();
             switch(opcao){
                 case 1 :

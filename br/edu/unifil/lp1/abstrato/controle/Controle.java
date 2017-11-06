@@ -33,7 +33,7 @@ public class Controle
       for(int i = 0; i < listEmp.length; i++) {
         if (listEmp[i] == null);
         else{
-          System.out.print("Funcionario: " + listEmp[i].getNome());
+          System.out.println("Funcionario: " + listEmp[i].getNome());
         }
       }
       return null;
