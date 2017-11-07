@@ -9,12 +9,13 @@ public abstract class Funcionario extends Pessoa
 
     public Funcionario (String n, float salario, int tipo){
         super(n);
-        //setSalario(salario);
+        setSalario(salario);
         setNome(nome);
+        getSalario();
     }
 
     public void setNome(String nome){
-            this.nome = nome;
+        this.nome = nome;
     }
 
     public float getSalario(){

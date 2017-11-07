@@ -28,6 +28,7 @@ public class Comissionado extends Funcionario
     }
 
     public float getGanhoMensal(){
-        return super.getSalario() + comisao * quantVendas;
+        System.out.println("GetGanhoMensal " + getSalario());
+        return super.getSalario() + getComisao() * getQuantVendas();
     }
 }
