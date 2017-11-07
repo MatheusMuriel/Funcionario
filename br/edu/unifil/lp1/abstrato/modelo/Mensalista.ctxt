@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Mensalista
-comment1.params=n\ salario\ tipo
-comment1.target=Mensalista(java.lang.String,\ float,\ int)
+comment1.params=n\ salario\ tipo\ comisao\ quantVendas\ horasTrab\ quantProd
+comment1.target=Mensalista(java.lang.String,\ float,\ int,\ float,\ int,\ float,\ int)
 comment2.params=
 comment2.target=float\ getGanhoMensal()
 numComments=3

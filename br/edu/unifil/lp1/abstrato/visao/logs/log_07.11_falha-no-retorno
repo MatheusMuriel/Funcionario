@@ -1,0 +1,105 @@
+Escolha uma opção: 
+1- Cadastrar funcionario
+2- Consultar funcionario
+0- Sair
+Opção: 1
+
+Nome: ze
+Salario: 500
+Qual é o tipo do funcionario?
+1- Mensalista
+2- Comissionario
+3- Horista
+4- Produção
+Tipo: 1
+ 
+ 
+Escolha uma opção: 
+1- Cadastrar funcionario
+2- Consultar funcionario
+0- Sair
+Opção: 2
+
+Funcionario: ze || Ganho: 500.0
+
+ 
+ Escolha uma opção: 
+1- Cadastrar funcionario
+2- Consultar funcionario
+0- Sair
+Opção: 1
+
+Nome: Maria
+Salario: 200
+Qual é o tipo do funcionario?
+1- Mensalista
+2- Comissionario
+3- Horista
+4- Produção
+Tipo: 2
+Comisão: 100
+Quantidade de vendas: 20
+ 
+ 
+Escolha uma opção: 
+1- Cadastrar funcionario
+2- Consultar funcionario
+0- Sair
+Opção: 2
+
+Funcionario: ze || Ganho: 500.0
+Funcionario: Maria || Ganho: 200.0
+
+ 
+ Escolha uma opção: 
+1- Cadastrar funcionario
+2- Consultar funcionario
+0- Sair
+Opção: 1
+
+Nome: Robson
+Salario: 300
+Qual é o tipo do funcionario?
+1- Mensalista
+2- Comissionario
+3- Horista
+4- Produção
+Tipo: 2
+Comisão: 3
+Quantidade de vendas: 1
+ 
+ 
+Escolha uma opção: 
+1- Cadastrar funcionario
+2- Consultar funcionario
+0- Sair
+Opção: 1
+
+Nome: edivaldo
+Salario: 300
+Qual é o tipo do funcionario?
+1- Mensalista
+2- Comissionario
+3- Horista
+4- Produção
+Tipo: 3
+Horas trabalhadas: 600
+ 
+ 
+Escolha uma opção: 
+1- Cadastrar funcionario
+2- Consultar funcionario
+0- Sair
+Opção: 2
+
+Funcionario: ze || Ganho: 500.0
+Funcionario: Maria || Ganho: 200.0
+Funcionario: Robson || Ganho: 300.0
+Funcionario: edivaldo || Ganho: 0.0
+
+ 
+ Escolha uma opção: 
+1- Cadastrar funcionario
+2- Consultar funcionario
+0- Sair
+Opção: 

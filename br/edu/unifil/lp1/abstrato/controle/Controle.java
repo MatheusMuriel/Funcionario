@@ -9,7 +9,6 @@ public class Controle
     //Metodo para retornar uma String com o nome eo salario do funcionario
     private int numMatricula = 0;
     private Funcionario[] listEmp = new Funcionario[100];
-
     public void addEmp(String nome, float salario, int tipo, float comisao, int quantVendas, float horasTrab, int quantProd){
         Funcionario emp = null;
         if(tipo == 1){
@@ -31,24 +30,9 @@ public class Controle
             if (listEmp[i] == null);
             else{
                 saida += "Funcionario: " + listEmp[i].getNome() + " || " +
-                "Ganho: "       + listEmp[i].getGanhoMensal();
+                "Ganho: "       + listEmp[i].getGanhoMensal() + "\n";
             }
         }
         return saida;
     }
-
-    public String convertTipo(int tipo){
-        String tipoEmp = (" ");
-        if       (tipo == 1) { //Mensalista
-
-        }else if (tipo == 2) { //Comissionario
-
-        }else if (tipo == 3) { //Horista
-
-        }else if (tipo == 4) { //Producao
-
-        }
-        return tipoEmp;
-    }
-
 }

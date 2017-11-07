@@ -6,6 +6,7 @@ public class Producao extends Funcionario
 
     public Producao(String n, float salario, int tipo, float comisao, int quantVendas, float horasTrab, int quantProd){
         super(n, salario, tipo);
+        setQuantProd(quantProd);
     }
 
     public int getQuantProd(){
@@ -14,9 +15,12 @@ public class Producao extends Funcionario
 
     public void setQuantProd(int quantProd){
         this.quantProd = quantProd;
+        
     }
 
     public float getGanhoMensal(){
+        //System.out.println("Getganhoprod" + super.getSalario() + "\n" + getQuantProd());
         return super.getSalario() * quantProd;
+        
     }
 }

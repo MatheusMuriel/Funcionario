@@ -3,7 +3,7 @@ import br.edu.unifil.lp1.abstrato.controle.Controle;
 import java.util.Scanner;
 /**
  * @author Matheus Muriel
- * @version 18/10/2017
+ * @version 07/11/2017
  */
 public class Sistema
 {
@@ -12,19 +12,21 @@ public class Sistema
         Controle  ctr = new Controle();
         Scanner   teclado = new Scanner(System.in);
         String    nome;
-        //String    tipoEmp = (" ");
         float     salario;
         float     comisao = 0;
         float     horasTrab = 0;
         int       quantVendas = 0;
         int       quantProd = 0;
         int       tipo;
-        int       opcao = 0;
-        while(opcao != 10){
-            System.out.println("Escolha uma opçao: ");
+        int       opcao = -1;
+        while(opcao != 0){
+            System.out.println("Escolha uma opção: ");
             System.out.println("1- Cadastrar funcionario");
             System.out.println("2- Consultar funcionario");
+            System.out.println("0- Sair");
+            System.out.print("Opção: ");
             opcao = teclado.nextInt();teclado.nextLine();
+            System.out.println(); //Para separar na tela;
             switch(opcao){
                 case 1 :
                     System.out.print("Nome: ");

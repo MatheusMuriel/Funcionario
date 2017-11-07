@@ -6,6 +6,7 @@ public class Horista extends Funcionario
 
     public Horista(String n, float salario, int tipo, float comisao, int quantVendas, float horasTrab, int quantProd){
         super(n, salario, tipo);
+        setHorasTrab(horasTrab);
     }
 
     public float getHorasTrab(){

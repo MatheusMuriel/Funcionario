@@ -5,6 +5,4 @@ comment1.params=nome\ salario\ tipo\ comisao\ quantVendas\ horasTrab\ quantProd
 comment1.target=void\ addEmp(java.lang.String,\ float,\ int,\ float,\ int,\ float,\ int)
 comment2.params=
 comment2.target=java.lang.String\ listarEmp()
-comment3.params=
-comment3.target=java.lang.String\ convertTipo()
-numComments=4
+numComments=3
