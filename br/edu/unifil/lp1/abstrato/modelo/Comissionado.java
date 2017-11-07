@@ -5,7 +5,7 @@ public class Comissionado extends Funcionario
     private float comisao;
     private float quantVendas;
 
-    public Comissionado(String n, float salario, int tipo){
+    public Comissionado(String n, float salario, int tipo, float comisao, int quantVendas, float horasTrab, int quantProd){
         super(n, salario, tipo);
     }
 

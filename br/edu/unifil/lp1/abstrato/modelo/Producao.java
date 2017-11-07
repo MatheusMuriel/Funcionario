@@ -4,7 +4,7 @@ public class Producao extends Funcionario
 {
     private int quantProd;
 
-    public Producao(String n, float salario, int tipo){
+    public Producao(String n, float salario, int tipo, float comisao, int quantVendas, float horasTrab, int quantProd){
         super(n, salario, tipo);
     }
 

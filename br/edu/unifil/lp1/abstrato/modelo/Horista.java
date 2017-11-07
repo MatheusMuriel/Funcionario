@@ -4,7 +4,7 @@ public class Horista extends Funcionario
 {
     private float horasTrab;
 
-    public Horista(String n, float salario, int tipo){
+    public Horista(String n, float salario, int tipo, float comisao, int quantVendas, float horasTrab, int quantProd){
         super(n, salario, tipo);
     }
 
