@@ -19,7 +19,6 @@ public class Producao extends Funcionario
     }
 
     public float getGanhoMensal(){
-        //System.out.println("Getganhoprod" + super.getSalario() + "\n" + getQuantProd());
         return super.getSalario() * quantProd;
         
     }

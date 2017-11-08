@@ -2,11 +2,10 @@ package br.edu.unifil.lp1.abstrato.controle;
 import br.edu.unifil.lp1.abstrato.modelo.*;
 /**
  * @author Matheus Muriel
- * @version 18/10/2017
+ * @version 08/11/2017
  */
 public class Controle
 {
-    //Metodo para retornar uma String com o nome eo salario do funcionario
     private int numMatricula = 0;
     private Funcionario[] listEmp = new Funcionario[100];
     public void addEmp(String nome, float salario, int tipo, float comisao, int quantVendas, float horasTrab, int quantProd){

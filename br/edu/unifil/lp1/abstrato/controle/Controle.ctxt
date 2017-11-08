@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Controle
-comment0.text=\r\n\ @author\ Matheus\ Muriel\r\n\ @version\ 18/10/2017\r\n
+comment0.text=\r\n\ @author\ Matheus\ Muriel\r\n\ @version\ 08/11/2017\r\n
 comment1.params=nome\ salario\ tipo\ comisao\ quantVendas\ horasTrab\ quantProd
 comment1.target=void\ addEmp(java.lang.String,\ float,\ int,\ float,\ int,\ float,\ int)
 comment2.params=
